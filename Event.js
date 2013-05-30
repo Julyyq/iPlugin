@@ -19,5 +19,5 @@
 		}
 	}
 
-	window.Event = Event;
+	window.iPlugin.Event = Event;
 })();

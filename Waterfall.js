@@ -1,6 +1,7 @@
-$(function() {
+(function() {
 	var tempArray = [];
 	var Waterfall = function(options) {
+		this.constructor = "Waterfall";
 		this.node = options.node;
 		this.url = options.url;
 		this.maxColumn = options.maxColumn || 1;
@@ -80,5 +81,5 @@ $(function() {
 			this.getData();
 		}
 	}
-	window.Waterfall = Waterfall;
-});
+	window.iPlugin.Waterfall = Waterfall;
+})();
